@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB63E1CF7FC4A006D84DF /* main.m */; };
 		4CEFB6421CF7FC4A006D84DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB6411CF7FC4A006D84DF /* AppDelegate.m */; };
-		4CEFB6451CF7FC4A006D84DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB6441CF7FC4A006D84DF /* ViewController.m */; };
-		4CEFB6481CF7FC4A006D84DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6461CF7FC4A006D84DF /* Main.storyboard */; };
 		4CEFB64A1CF7FC4A006D84DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */; };
 		4CEFB64D1CF7FC4A006D84DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB64B1CF7FC4A006D84DF /* LaunchScreen.storyboard */; };
+		4CEFB67C1CF8117C006D84DF /* Hall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB67B1CF8117C006D84DF /* Hall.storyboard */; };
+		4CEFB67E1CF81196006D84DF /* Arena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB67D1CF81196006D84DF /* Arena.storyboard */; };
+		4CEFB6801CF811AB006D84DF /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB67F1CF811AB006D84DF /* Discovery.storyboard */; };
+		4CEFB6821CF811BD006D84DF /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6811CF811BD006D84DF /* History.storyboard */; };
+		4CEFB6841CF811D2006D84DF /* MyLottery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6831CF811D2006D84DF /* MyLottery.storyboard */; };
+		4CEFB6861CF811E2006D84DF /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6851CF811E2006D84DF /* Guide.storyboard */; };
+		4CEFB6891CF82797006D84DF /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB6881CF82797006D84DF /* MyTabBarController.m */; };
+		4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,20 @@
 		4CEFB63E1CF7FC4A006D84DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CEFB6401CF7FC4A006D84DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CEFB6411CF7FC4A006D84DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CEFB6431CF7FC4A006D84DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CEFB6441CF7FC4A006D84DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4CEFB6471CF7FC4A006D84DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEFB64C1CF7FC4A006D84DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEFB64E1CF7FC4A006D84DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEFB67A1CF80FCE006D84DF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4CEFB67B1CF8117C006D84DF /* Hall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hall.storyboard; sourceTree = "<group>"; };
+		4CEFB67D1CF81196006D84DF /* Arena.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Arena.storyboard; sourceTree = "<group>"; };
+		4CEFB67F1CF811AB006D84DF /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		4CEFB6811CF811BD006D84DF /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		4CEFB6831CF811D2006D84DF /* MyLottery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyLottery.storyboard; sourceTree = "<group>"; };
+		4CEFB6851CF811E2006D84DF /* Guide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guide.storyboard; sourceTree = "<group>"; };
+		4CEFB6871CF82797006D84DF /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		4CEFB6881CF82797006D84DF /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomView.h; sourceTree = "<group>"; };
+		4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +72,13 @@
 		4CEFB63C1CF7FC4A006D84DF /* 02-Lottery */ = {
 			isa = PBXGroup;
 			children = (
-				4CEFB6401CF7FC4A006D84DF /* AppDelegate.h */,
-				4CEFB6411CF7FC4A006D84DF /* AppDelegate.m */,
-				4CEFB6431CF7FC4A006D84DF /* ViewController.h */,
-				4CEFB6441CF7FC4A006D84DF /* ViewController.m */,
-				4CEFB6461CF7FC4A006D84DF /* Main.storyboard */,
-				4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */,
-				4CEFB64B1CF7FC4A006D84DF /* LaunchScreen.storyboard */,
-				4CEFB64E1CF7FC4A006D84DF /* Info.plist */,
+				4CEFB65C1CF80D3A006D84DF /* 000-Guide(新特性) */,
+				4CEFB65B1CF80D1E006D84DF /* 05-MyLottery(我的彩票) */,
+				4CEFB65A1CF80CF6006D84DF /* 04-History(开奖) */,
+				4CEFB6591CF80CD9006D84DF /* 03-Discovery(发现) */,
+				4CEFB6581CF80CC0006D84DF /* 02-Arena(竞技场) */,
+				4CEFB6571CF80C91006D84DF /* 01-Hall(大厅) */,
+				4CEFB6551CF80C76006D84DF /* 00-Main(主体) */,
 				4CEFB63D1CF7FC4A006D84DF /* Supporting Files */,
 			);
 			path = "02-Lottery";
@@ -74,9 +87,298 @@
 		4CEFB63D1CF7FC4A006D84DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */,
+				4CEFB64B1CF7FC4A006D84DF /* LaunchScreen.storyboard */,
+				4CEFB64E1CF7FC4A006D84DF /* Info.plist */,
 				4CEFB63E1CF7FC4A006D84DF /* main.m */,
+				4CEFB67A1CF80FCE006D84DF /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CEFB6551CF80C76006D84DF /* 00-Main(主体) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6611CF80DCD006D84DF /* Others */,
+				4CEFB6601CF80DA0006D84DF /* Controllers */,
+				4CEFB65E1CF80D83006D84DF /* Views */,
+				4CEFB65D1CF80D7B006D84DF /* Models */,
+			);
+			name = "00-Main(主体)";
+			sourceTree = "<group>";
+		};
+		4CEFB6571CF80C91006D84DF /* 01-Hall(大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6651CF80EB2006D84DF /* Others */,
+				4CEFB6641CF80EA9006D84DF /* Controllers */,
+				4CEFB6631CF80EA2006D84DF /* Views */,
+				4CEFB6621CF80E99006D84DF /* Models */,
+			);
+			name = "01-Hall(大厅)";
+			sourceTree = "<group>";
+		};
+		4CEFB6581CF80CC0006D84DF /* 02-Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6691CF80EE7006D84DF /* Others */,
+				4CEFB6681CF80EDF006D84DF /* Controllers */,
+				4CEFB6671CF80ED8006D84DF /* Views */,
+				4CEFB6661CF80EBE006D84DF /* Models */,
+			);
+			name = "02-Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		4CEFB6591CF80CD9006D84DF /* 03-Discovery(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB66D1CF80F12006D84DF /* Others */,
+				4CEFB66C1CF80F09006D84DF /* Controllers */,
+				4CEFB66B1CF80F01006D84DF /* Views */,
+				4CEFB66A1CF80EFA006D84DF /* Models */,
+			);
+			name = "03-Discovery(发现)";
+			sourceTree = "<group>";
+		};
+		4CEFB65A1CF80CF6006D84DF /* 04-History(开奖) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6711CF80F39006D84DF /* Others */,
+				4CEFB6701CF80F31006D84DF /* Controllers */,
+				4CEFB66F1CF80F2B006D84DF /* Views */,
+				4CEFB66E1CF80F25006D84DF /* Models */,
+			);
+			name = "04-History(开奖)";
+			sourceTree = "<group>";
+		};
+		4CEFB65B1CF80D1E006D84DF /* 05-MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6751CF80F61006D84DF /* Others */,
+				4CEFB6741CF80F58006D84DF /* Controllers */,
+				4CEFB6731CF80F50006D84DF /* Views */,
+				4CEFB6721CF80F43006D84DF /* Models */,
+			);
+			name = "05-MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		4CEFB65C1CF80D3A006D84DF /* 000-Guide(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6791CF80F85006D84DF /* Others */,
+				4CEFB6781CF80F7B006D84DF /* Controllers */,
+				4CEFB6771CF80F75006D84DF /* Views */,
+				4CEFB6761CF80F6F006D84DF /* Models */,
+			);
+			name = "000-Guide(新特性)";
+			sourceTree = "<group>";
+		};
+		4CEFB65D1CF80D7B006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB65E1CF80D83006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */,
+				4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB6601CF80DA0006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6871CF82797006D84DF /* MyTabBarController.h */,
+				4CEFB6881CF82797006D84DF /* MyTabBarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB6611CF80DCD006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6401CF7FC4A006D84DF /* AppDelegate.h */,
+				4CEFB6411CF7FC4A006D84DF /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4CEFB6621CF80E99006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB6631CF80EA2006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB6641CF80EA9006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB67B1CF8117C006D84DF /* Hall.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB6651CF80EB2006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4CEFB6661CF80EBE006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB6671CF80ED8006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB6681CF80EDF006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB67D1CF81196006D84DF /* Arena.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB6691CF80EE7006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4CEFB66A1CF80EFA006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB66B1CF80F01006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB66C1CF80F09006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB67F1CF811AB006D84DF /* Discovery.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB66D1CF80F12006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4CEFB66E1CF80F25006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB66F1CF80F2B006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB6701CF80F31006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6811CF811BD006D84DF /* History.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB6711CF80F39006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4CEFB6721CF80F43006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB6731CF80F50006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB6741CF80F58006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6831CF811D2006D84DF /* MyLottery.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB6751CF80F61006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		4CEFB6761CF80F6F006D84DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CEFB6771CF80F75006D84DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CEFB6781CF80F7B006D84DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFB6851CF811E2006D84DF /* Guide.storyboard */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEFB6791CF80F85006D84DF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +439,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEFB6801CF811AB006D84DF /* Discovery.storyboard in Resources */,
 				4CEFB64D1CF7FC4A006D84DF /* LaunchScreen.storyboard in Resources */,
 				4CEFB64A1CF7FC4A006D84DF /* Assets.xcassets in Resources */,
-				4CEFB6481CF7FC4A006D84DF /* Main.storyboard in Resources */,
+				4CEFB67E1CF81196006D84DF /* Arena.storyboard in Resources */,
+				4CEFB6841CF811D2006D84DF /* MyLottery.storyboard in Resources */,
+				4CEFB6861CF811E2006D84DF /* Guide.storyboard in Resources */,
+				4CEFB67C1CF8117C006D84DF /* Hall.storyboard in Resources */,
+				4CEFB6821CF811BD006D84DF /* History.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +457,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEFB6451CF7FC4A006D84DF /* ViewController.m in Sources */,
 				4CEFB6421CF7FC4A006D84DF /* AppDelegate.m in Sources */,
+				4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */,
 				4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */,
+				4CEFB6891CF82797006D84DF /* MyTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CEFB6461CF7FC4A006D84DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CEFB6471CF7FC4A006D84DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CEFB64B1CF7FC4A006D84DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -264,7 +564,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "./02-Lottery/PrefixHeader.pch";
 				INFOPLIST_FILE = "02-Lottery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.cocoagame.-2-Lottery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +578,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "./02-Lottery/PrefixHeader.pch";
 				INFOPLIST_FILE = "02-Lottery/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.cocoagame.-2-Lottery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
