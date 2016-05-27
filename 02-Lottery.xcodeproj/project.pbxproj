@@ -40,6 +40,7 @@
 		4CEFB6881CF82797006D84DF /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 		4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomView.h; sourceTree = "<group>"; };
 		4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBottomView.m; sourceTree = "<group>"; };
+		4CEFB68D1CF83E2E006D84DF /* TabBottomViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */,
+				4CEFB68D1CF83E2E006D84DF /* TabBottomViewDelegate.h */,
 				4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */,
 			);
 			name = Views;

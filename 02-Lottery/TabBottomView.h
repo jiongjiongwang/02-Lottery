@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TabBottomViewDelegate.h"
+
 
 #warning 自定义一个底部工具条，用于模拟tabBar Controller的底部工具条的作用
 
 @interface TabBottomView : UIView
+
+-(void)setUpButtonsOnBottomWithCount:(NSInteger)Count;
+
+@property (nonatomic,weak)id<TabBottomViewDelegate> delegate;
+
+
 
 @end
