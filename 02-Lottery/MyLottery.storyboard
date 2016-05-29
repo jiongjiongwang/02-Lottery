@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--My Navigation Controller-->
         <scene sceneID="qsA-fa-bVq">
             <objects>
-                <navigationController id="VFA-MA-RUd" sceneMemberID="viewController">
+                <navigationController id="VFA-MA-RUd" customClass="MyNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WV3-j0-xyj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -32,13 +32,64 @@
                     <view key="view" contentMode="scaleToFill" id="Mpq-ia-cnp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="bGW-xu-PO5">
+                                <rect key="frame" x="30" y="94" width="540" height="138"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网易邮箱账号可以直接登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ez8-n9-Rnb">
+                                <rect key="frame" x="30" y="252" width="540" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVy-MO-Rf7">
+                                <rect key="frame" x="30" y="382" width="540" height="29"/>
+                                <state key="normal" title="注      册" backgroundImage="RedButton"/>
+                                <state key="highlighted" backgroundImage="RedButtonPressed"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nn-4m-lUk">
+                                <rect key="frame" x="30" y="323" width="540" height="29"/>
+                                <state key="normal" title="登      录" backgroundImage="RedButton"/>
+                                <state key="highlighted" backgroundImage="RedButtonPressed"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ez8-n9-Rnb" firstAttribute="leading" secondItem="bGW-xu-PO5" secondAttribute="leading" id="6cY-Ic-2de"/>
+                            <constraint firstItem="Ez8-n9-Rnb" firstAttribute="top" secondItem="bGW-xu-PO5" secondAttribute="bottom" constant="20" id="ABs-GB-JOp"/>
+                            <constraint firstItem="wVy-MO-Rf7" firstAttribute="leading" secondItem="8nn-4m-lUk" secondAttribute="leading" id="Dv7-6q-tHO"/>
+                            <constraint firstAttribute="trailing" secondItem="bGW-xu-PO5" secondAttribute="trailing" constant="30" id="KGu-KH-hnp"/>
+                            <constraint firstItem="Ez8-n9-Rnb" firstAttribute="trailing" secondItem="bGW-xu-PO5" secondAttribute="trailing" id="LBK-eU-IOB"/>
+                            <constraint firstItem="8nn-4m-lUk" firstAttribute="trailing" secondItem="Ez8-n9-Rnb" secondAttribute="trailing" id="OtN-O6-Kou"/>
+                            <constraint firstItem="8nn-4m-lUk" firstAttribute="top" secondItem="Ez8-n9-Rnb" secondAttribute="bottom" constant="50" id="SwY-lL-NVq"/>
+                            <constraint firstItem="bGW-xu-PO5" firstAttribute="top" secondItem="sh4-6r-JPb" secondAttribute="bottom" constant="30" id="VZH-bz-j0d"/>
+                            <constraint firstItem="8nn-4m-lUk" firstAttribute="leading" secondItem="Ez8-n9-Rnb" secondAttribute="leading" id="jOQ-pL-Qir"/>
+                            <constraint firstItem="wVy-MO-Rf7" firstAttribute="trailing" secondItem="8nn-4m-lUk" secondAttribute="trailing" id="jXt-nI-upZ"/>
+                            <constraint firstItem="wVy-MO-Rf7" firstAttribute="top" secondItem="8nn-4m-lUk" secondAttribute="bottom" constant="30" id="r09-mv-f95"/>
+                            <constraint firstItem="bGW-xu-PO5" firstAttribute="leading" secondItem="Mpq-ia-cnp" secondAttribute="leading" constant="30" id="sDI-UC-4fA"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="我的彩票" id="jB7-pT-Lb0"/>
+                    <navigationItem key="navigationItem" title="我的彩票" id="jB7-pT-Lb0">
+                        <barButtonItem key="leftBarButtonItem" id="iTf-u7-pzP">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Mw-NG-WNc">
+                                <rect key="frame" x="20" y="11" width="49" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="客服" image="FBMM_Barbutton"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Mylottery_config" id="SnE-J5-3YA"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lKn-nx-GgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="240" y="394"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FBMM_Barbutton" width="13" height="13"/>
+        <image name="LoginScreen" width="296" height="138"/>
+        <image name="Mylottery_config" width="22" height="22"/>
+        <image name="RedButton" width="54" height="29"/>
+        <image name="RedButtonPressed" width="51" height="27"/>
+    </resources>
 </document>

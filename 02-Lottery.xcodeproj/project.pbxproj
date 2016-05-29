@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CE769641CF93296000E8271 /* UIView+NewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE769631CF93296000E8271 /* UIView+NewFrame.m */; };
+		4CE769671CF936DD000E8271 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE769661CF936DD000E8271 /* HallViewController.m */; };
+		4CE7696A1CF95DEE000E8271 /* TabBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE769691CF95DEE000E8271 /* TabBottomButton.m */; };
+		4CE7696D1CF95EDB000E8271 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7696C1CF95EDB000E8271 /* MyNavigationController.m */; };
+		4CE769701CF9632D000E8271 /* ArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7696F1CF9632D000E8271 /* ArenaController.m */; };
 		4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB63E1CF7FC4A006D84DF /* main.m */; };
 		4CEFB6421CF7FC4A006D84DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB6411CF7FC4A006D84DF /* AppDelegate.m */; };
 		4CEFB64A1CF7FC4A006D84DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */; };
@@ -19,9 +24,22 @@
 		4CEFB6861CF811E2006D84DF /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6851CF811E2006D84DF /* Guide.storyboard */; };
 		4CEFB6891CF82797006D84DF /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB6881CF82797006D84DF /* MyTabBarController.m */; };
 		4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */; };
+		4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */; };
+		4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A21CF998C300991B4C /* AllLotteryButton.m */; };
+		4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A51CF9AFF600991B4C /* LuckNumController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CE769621CF93296000E8271 /* UIView+NewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NewFrame.h"; sourceTree = "<group>"; };
+		4CE769631CF93296000E8271 /* UIView+NewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NewFrame.m"; sourceTree = "<group>"; };
+		4CE769651CF936DD000E8271 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
+		4CE769661CF936DD000E8271 /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
+		4CE769681CF95DEE000E8271 /* TabBottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomButton.h; sourceTree = "<group>"; };
+		4CE769691CF95DEE000E8271 /* TabBottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBottomButton.m; sourceTree = "<group>"; };
+		4CE7696B1CF95EDB000E8271 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		4CE7696C1CF95EDB000E8271 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		4CE7696E1CF9632D000E8271 /* ArenaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArenaController.h; sourceTree = "<group>"; };
+		4CE7696F1CF9632D000E8271 /* ArenaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArenaController.m; sourceTree = "<group>"; };
 		4CEFB63A1CF7FC4A006D84DF /* 02-Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-Lottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEFB63E1CF7FC4A006D84DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CEFB6401CF7FC4A006D84DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +59,12 @@
 		4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomView.h; sourceTree = "<group>"; };
 		4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBottomView.m; sourceTree = "<group>"; };
 		4CEFB68D1CF83E2E006D84DF /* TabBottomViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomViewDelegate.h; sourceTree = "<group>"; };
+		4CFCE19E1CF9913A00991B4C /* AllLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryController.h; sourceTree = "<group>"; };
+		4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLotteryController.m; sourceTree = "<group>"; };
+		4CFCE1A11CF998C300991B4C /* AllLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryButton.h; sourceTree = "<group>"; };
+		4CFCE1A21CF998C300991B4C /* AllLotteryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLotteryButton.m; sourceTree = "<group>"; };
+		4CFCE1A41CF9AFF600991B4C /* LuckNumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckNumController.h; sourceTree = "<group>"; };
+		4CFCE1A51CF9AFF600991B4C /* LuckNumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckNumController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +112,8 @@
 		4CEFB63D1CF7FC4A006D84DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CE769621CF93296000E8271 /* UIView+NewFrame.h */,
+				4CE769631CF93296000E8271 /* UIView+NewFrame.m */,
 				4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */,
 				4CEFB64B1CF7FC4A006D84DF /* LaunchScreen.storyboard */,
 				4CEFB64E1CF7FC4A006D84DF /* Info.plist */,
@@ -187,6 +213,8 @@
 				4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */,
 				4CEFB68D1CF83E2E006D84DF /* TabBottomViewDelegate.h */,
 				4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */,
+				4CE769681CF95DEE000E8271 /* TabBottomButton.h */,
+				4CE769691CF95DEE000E8271 /* TabBottomButton.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -196,6 +224,8 @@
 			children = (
 				4CEFB6871CF82797006D84DF /* MyTabBarController.h */,
 				4CEFB6881CF82797006D84DF /* MyTabBarController.m */,
+				4CE7696B1CF95EDB000E8271 /* MyNavigationController.h */,
+				4CE7696C1CF95EDB000E8271 /* MyNavigationController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -227,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				4CEFB67B1CF8117C006D84DF /* Hall.storyboard */,
+				4CE769651CF936DD000E8271 /* HallViewController.h */,
+				4CE769661CF936DD000E8271 /* HallViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -256,6 +288,8 @@
 			isa = PBXGroup;
 			children = (
 				4CEFB67D1CF81196006D84DF /* Arena.storyboard */,
+				4CE7696E1CF9632D000E8271 /* ArenaController.h */,
+				4CE7696F1CF9632D000E8271 /* ArenaController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -277,6 +311,8 @@
 		4CEFB66B1CF80F01006D84DF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4CFCE1A11CF998C300991B4C /* AllLotteryButton.h */,
+				4CFCE1A21CF998C300991B4C /* AllLotteryButton.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -285,6 +321,10 @@
 			isa = PBXGroup;
 			children = (
 				4CEFB67F1CF811AB006D84DF /* Discovery.storyboard */,
+				4CFCE19E1CF9913A00991B4C /* AllLotteryController.h */,
+				4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */,
+				4CFCE1A41CF9AFF600991B4C /* LuckNumController.h */,
+				4CFCE1A51CF9AFF600991B4C /* LuckNumController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -460,7 +500,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEFB6421CF7FC4A006D84DF /* AppDelegate.m in Sources */,
+				4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */,
+				4CE769671CF936DD000E8271 /* HallViewController.m in Sources */,
 				4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */,
+				4CE769641CF93296000E8271 /* UIView+NewFrame.m in Sources */,
+				4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */,
+				4CE7696A1CF95DEE000E8271 /* TabBottomButton.m in Sources */,
+				4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */,
+				4CE7696D1CF95EDB000E8271 /* MyNavigationController.m in Sources */,
+				4CE769701CF9632D000E8271 /* ArenaController.m in Sources */,
 				4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */,
 				4CEFB6891CF82797006D84DF /* MyTabBarController.m in Sources */,
 			);
@@ -609,6 +657,7 @@
 				4CEFB6531CF7FC4A006D84DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

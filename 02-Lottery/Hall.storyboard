@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="430" y="371"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--My Navigation Controller-->
         <scene sceneID="uUr-oX-g0g">
             <objects>
-                <navigationController id="421-5b-mDJ" sceneMemberID="viewController">
+                <navigationController id="421-5b-mDJ" customClass="MyNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PfH-im-eyH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

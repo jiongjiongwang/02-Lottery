@@ -7,11 +7,12 @@
 //
 
 #import "TabBottomView.h"
+#import "TabBottomButton.h"
 
 @interface TabBottomView()
 
 //定义一个button，用于记录哪一个button被点击
-@property (nonatomic,weak)UIButton *selectedButton;
+@property (nonatomic,weak)TabBottomButton *selectedButton;
 
 
 @end
@@ -22,16 +23,20 @@
 {
 #warning 遍历tabBar Controller的子控制器(viewControllers里的内容)，每次遍历一个就在bottomView上添加一个按钮
     //设置button的大小和位置
-    CGFloat buttonWidth = self.bounds.size.width/Count;
-    CGFloat buttonHeight = self.bounds.size.height;
+#warning 使用新的分类
+    CGFloat buttonWidth = self.wid/Count;
+    CGFloat buttonHeight = self.height;
     CGFloat buttonY = 0;
+    
+    
+    
     
     
     for (int i = 0; i<Count; i++)
     {
         CGFloat buttonX = i*buttonWidth;
         
-        UIButton *button = [[UIButton alloc]init];
+        TabBottomButton *button = [[TabBottomButton alloc]init];
         
         button.frame = CGRectMake(buttonX, buttonY, buttonWidth, buttonHeight);
         
@@ -65,7 +70,7 @@
 }
 
 //button的点击触发事件
--(void)buttonClick:(UIButton *)btn
+-(void)buttonClick:(TabBottomButton *)btn
 {
     _selectedButton.selected = NO;
     

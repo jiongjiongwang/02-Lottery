@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--My Navigation Controller-->
         <scene sceneID="UvA-bn-EcV">
             <objects>
-                <navigationController id="3XJ-91-ZAA" sceneMemberID="viewController">
+                <navigationController id="3XJ-91-ZAA" customClass="MyNavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IZf-0n-de8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -21,10 +21,10 @@
             </objects>
             <point key="canvasLocation" x="-519" y="353"/>
         </scene>
-        <!--View Controller-->
+        <!--Arena Controller-->
         <scene sceneID="Bdv-hi-HPq">
             <objects>
-                <viewController id="lfx-QS-vta" sceneMemberID="viewController">
+                <viewController id="lfx-QS-vta" customClass="ArenaController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XZg-LB-d6c"/>
                         <viewControllerLayoutGuide type="bottom" id="Gn5-aV-ms3"/>
@@ -45,6 +45,9 @@
                             </segments>
                         </segmentedControl>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segment" destination="aJS-lK-JtL" id="hfz-Qp-Nf6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1t-qa-3oT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

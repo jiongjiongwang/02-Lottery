@@ -31,6 +31,11 @@
     self.window.rootViewController = tabbarVC;
     
     
+    // 2.3设置状态颜色
+    application.statusBarStyle = UIStatusBarStyleLightContent;
+    application.statusBarHidden = NO;
+    
+    
     //(4)window显示出来
     [self.window makeKeyAndVisible];
     
