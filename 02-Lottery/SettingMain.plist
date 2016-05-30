@@ -130,8 +130,12 @@
 			<dict>
 				<key>accessoryName</key>
 				<string>CellArrow</string>
+				<key>targetVC</key>
+				<string>AboutSettingController</string>
 				<key>accessoryType</key>
 				<string>UIImageView</string>
+				<key>plistName</key>
+				<string>About.plist</string>
 				<key>icon</key>
 				<string>MoreAbout</string>
 				<key>title</key>

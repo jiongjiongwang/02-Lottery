@@ -44,6 +44,11 @@
 		4CF72D401CFC29870064BF07 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D3F1CFC29870064BF07 /* ProductModel.m */; };
 		4CF72D441CFC2F7F0064BF07 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D421CFC2F7F0064BF07 /* ProductCell.m */; };
 		4CF72D451CFC2F7F0064BF07 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D431CFC2F7F0064BF07 /* ProductCell.xib */; };
+		4CF72D471CFC3AAF0064BF07 /* About.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D461CFC3AAF0064BF07 /* About.plist */; };
+		4CF72D4A1CFC3D280064BF07 /* AboutSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D491CFC3D280064BF07 /* AboutSettingController.m */; };
+		4CF72D4D1CFC3DB00064BF07 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D4C1CFC3DB00064BF07 /* AboutView.m */; };
+		4CF72D4F1CFC3DEE0064BF07 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D4E1CFC3DEE0064BF07 /* AboutView.xib */; };
+		4CF72D511CFC432D0064BF07 /* Question.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D501CFC432D0064BF07 /* Question.plist */; };
 		4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */; };
 		4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A21CF998C300991B4C /* AllLotteryButton.m */; };
 		4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A51CF9AFF600991B4C /* LuckNumController.m */; };
@@ -111,6 +116,13 @@
 		4CF72D411CFC2F7F0064BF07 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
 		4CF72D421CFC2F7F0064BF07 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 		4CF72D431CFC2F7F0064BF07 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		4CF72D461CFC3AAF0064BF07 /* About.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = About.plist; sourceTree = "<group>"; };
+		4CF72D481CFC3D280064BF07 /* AboutSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutSettingController.h; sourceTree = "<group>"; };
+		4CF72D491CFC3D280064BF07 /* AboutSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutSettingController.m; sourceTree = "<group>"; };
+		4CF72D4B1CFC3DB00064BF07 /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		4CF72D4C1CFC3DB00064BF07 /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		4CF72D4E1CFC3DEE0064BF07 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		4CF72D501CFC432D0064BF07 /* Question.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Question.plist; sourceTree = "<group>"; };
 		4CFCE19E1CF9913A00991B4C /* AllLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryController.h; sourceTree = "<group>"; };
 		4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLotteryController.m; sourceTree = "<group>"; };
 		4CFCE1A11CF998C300991B4C /* AllLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryButton.h; sourceTree = "<group>"; };
@@ -156,6 +168,8 @@
 				4CE175321CFA86CA0095349E /* MainSettingController.m */,
 				4CE175401CFB05410095349E /* ScoreSettingController.h */,
 				4CE175411CFB05410095349E /* ScoreSettingController.m */,
+				4CF72D481CFC3D280064BF07 /* AboutSettingController.h */,
+				4CF72D491CFC3D280064BF07 /* AboutSettingController.m */,
 			);
 			name = TableViewController;
 			sourceTree = "<group>";
@@ -473,6 +487,9 @@
 				4CF72D411CFC2F7F0064BF07 /* ProductCell.h */,
 				4CF72D421CFC2F7F0064BF07 /* ProductCell.m */,
 				4CF72D431CFC2F7F0064BF07 /* ProductCell.xib */,
+				4CF72D4B1CFC3DB00064BF07 /* AboutView.h */,
+				4CF72D4C1CFC3DB00064BF07 /* AboutView.m */,
+				4CF72D4E1CFC3DEE0064BF07 /* AboutView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -534,6 +551,8 @@
 				4CF72D321CFC1B6A0064BF07 /* Push3.plist */,
 				4CF72D341CFC1B7E0064BF07 /* Push4.plist */,
 				4CF72D361CFC215E0064BF07 /* Share.plist */,
+				4CF72D461CFC3AAF0064BF07 /* About.plist */,
+				4CF72D501CFC432D0064BF07 /* Question.plist */,
 			);
 			name = SettingPlist;
 			sourceTree = "<group>";
@@ -605,9 +624,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF72D4F1CFC3DEE0064BF07 /* AboutView.xib in Resources */,
+				4CF72D471CFC3AAF0064BF07 /* About.plist in Resources */,
 				4CEFB6801CF811AB006D84DF /* Discovery.storyboard in Resources */,
 				4CF72D291CFBEBD80064BF07 /* CoverView.xib in Resources */,
 				4CE1753D1CFAE0F30095349E /* Push1.plist in Resources */,
+				4CF72D511CFC432D0064BF07 /* Question.plist in Resources */,
 				4CEFB64D1CF7FC4A006D84DF /* LaunchScreen.storyboard in Resources */,
 				4CF72D331CFC1B6A0064BF07 /* Push3.plist in Resources */,
 				4CEFB64A1CF7FC4A006D84DF /* Assets.xcassets in Resources */,
@@ -637,6 +659,7 @@
 				4CE175421CFB05410095349E /* ScoreSettingController.m in Sources */,
 				4CE175331CFA86CA0095349E /* MainSettingController.m in Sources */,
 				4CEFB6421CF7FC4A006D84DF /* AppDelegate.m in Sources */,
+				4CF72D4D1CFC3DB00064BF07 /* AboutView.m in Sources */,
 				4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */,
 				4CE769671CF936DD000E8271 /* HallViewController.m in Sources */,
 				4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */,
@@ -651,6 +674,7 @@
 				4CF72D301CFC11B90064BF07 /* MyTableViewCell.m in Sources */,
 				4CE175371CFA8E540095349E /* CodeViewController.m in Sources */,
 				4CE7696D1CF95EDB000E8271 /* MyNavigationController.m in Sources */,
+				4CF72D4A1CFC3D280064BF07 /* AboutSettingController.m in Sources */,
 				4CF72CD61CFBD4510064BF07 /* CoverView.m in Sources */,
 				4CE769701CF9632D000E8271 /* ArenaController.m in Sources */,
 				4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */,

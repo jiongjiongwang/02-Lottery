@@ -190,6 +190,10 @@ static NSString *cellIdentify = @"MainSetting";
                 cell.detailTextLabel.textColor = [UIColor redColor];
             }
         }
+        else
+        {
+            cell.detailTextLabel.textColor = [UIColor blackColor];
+        }
     }
     
     

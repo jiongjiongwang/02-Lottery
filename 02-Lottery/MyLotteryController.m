@@ -37,9 +37,28 @@
     
     mainSetting.navigationItem.title = @"设置";
     
+    mainSetting.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"常见问题" style:UIBarButtonItemStylePlain target:self action:@selector(ClickToQuesition)];
+    
     
     [self.navigationController pushViewController:mainSetting animated:YES];
 }
+
+
+-(void)ClickToQuesition
+{
+    /*
+    MainSettingController *mainSetting = [[MainSettingController alloc] init];
+    
+    //设置plistName，加载数据
+    mainSetting.plistName = @"Question.plist";
+    
+    mainSetting.navigationItem.title = @"常见问题";
+    
+    [self.navigationController pushViewController:mainSetting animated:YES];
+     */
+    
+}
+
 
 
 
