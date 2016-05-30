@@ -32,6 +32,16 @@
 		4CEFB6861CF811E2006D84DF /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFB6851CF811E2006D84DF /* Guide.storyboard */; };
 		4CEFB6891CF82797006D84DF /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB6881CF82797006D84DF /* MyTabBarController.m */; };
 		4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */; };
+		4CF72CD61CFBD4510064BF07 /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72CD51CFBD4510064BF07 /* CoverView.m */; };
+		4CF72D291CFBEBD80064BF07 /* CoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D281CFBEBD80064BF07 /* CoverView.xib */; };
+		4CF72D2D1CFC0DE80064BF07 /* MySwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D2C1CFC0DE80064BF07 /* MySwitch.m */; };
+		4CF72D301CFC11B90064BF07 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D2F1CFC11B90064BF07 /* MyTableViewCell.m */; };
+		4CF72D331CFC1B6A0064BF07 /* Push3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D321CFC1B6A0064BF07 /* Push3.plist */; };
+		4CF72D351CFC1B7E0064BF07 /* Push4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D341CFC1B7E0064BF07 /* Push4.plist */; };
+		4CF72D371CFC215E0064BF07 /* Share.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D361CFC215E0064BF07 /* Share.plist */; };
+		4CF72D3B1CFC24BE0064BF07 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D3A1CFC24BE0064BF07 /* ProductController.m */; };
+		4CF72D3D1CFC29000064BF07 /* more_project.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D3C1CFC29000064BF07 /* more_project.json */; };
+		4CF72D401CFC29870064BF07 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D3F1CFC29870064BF07 /* ProductModel.m */; };
 		4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */; };
 		4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A21CF998C300991B4C /* AllLotteryButton.m */; };
 		4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A51CF9AFF600991B4C /* LuckNumController.m */; };
@@ -79,6 +89,23 @@
 		4CEFB68A1CF82EEE006D84DF /* TabBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomView.h; sourceTree = "<group>"; };
 		4CEFB68B1CF82EEE006D84DF /* TabBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBottomView.m; sourceTree = "<group>"; };
 		4CEFB68D1CF83E2E006D84DF /* TabBottomViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBottomViewDelegate.h; sourceTree = "<group>"; };
+		4CF72CD41CFBD4510064BF07 /* CoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverView.h; sourceTree = "<group>"; };
+		4CF72CD51CFBD4510064BF07 /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
+		4CF72D271CFBEB810064BF07 /* HallViewShowCoverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewShowCoverDelegate.h; sourceTree = "<group>"; };
+		4CF72D281CFBEBD80064BF07 /* CoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverView.xib; sourceTree = "<group>"; };
+		4CF72D2A1CFBF2520064BF07 /* CoverViewCloseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverViewCloseDelegate.h; sourceTree = "<group>"; };
+		4CF72D2B1CFC0DE80064BF07 /* MySwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySwitch.h; sourceTree = "<group>"; };
+		4CF72D2C1CFC0DE80064BF07 /* MySwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySwitch.m; sourceTree = "<group>"; };
+		4CF72D2E1CFC11B90064BF07 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		4CF72D2F1CFC11B90064BF07 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		4CF72D321CFC1B6A0064BF07 /* Push3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Push3.plist; sourceTree = "<group>"; };
+		4CF72D341CFC1B7E0064BF07 /* Push4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Push4.plist; sourceTree = "<group>"; };
+		4CF72D361CFC215E0064BF07 /* Share.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Share.plist; sourceTree = "<group>"; };
+		4CF72D391CFC24BE0064BF07 /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductController.h; sourceTree = "<group>"; };
+		4CF72D3A1CFC24BE0064BF07 /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductController.m; sourceTree = "<group>"; };
+		4CF72D3C1CFC29000064BF07 /* more_project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = more_project.json; sourceTree = "<group>"; };
+		4CF72D3E1CFC29870064BF07 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		4CF72D3F1CFC29870064BF07 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
 		4CFCE19E1CF9913A00991B4C /* AllLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryController.h; sourceTree = "<group>"; };
 		4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLotteryController.m; sourceTree = "<group>"; };
 		4CFCE1A11CF998C300991B4C /* AllLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryButton.h; sourceTree = "<group>"; };
@@ -101,6 +128,7 @@
 		4CE175341CFA8E190095349E /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				4CF72D381CFC23910064BF07 /* CollectionViewController */,
 				4CE175391CFAB1150095349E /* TableViewController */,
 				4CE175381CFAB0FF0095349E /* ViewController */,
 			);
@@ -161,6 +189,8 @@
 		4CEFB63D1CF7FC4A006D84DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CF72D3C1CFC29000064BF07 /* more_project.json */,
+				4CF72D311CFC1B410064BF07 /* SettingPlist */,
 				4CE769621CF93296000E8271 /* UIView+NewFrame.h */,
 				4CE769631CF93296000E8271 /* UIView+NewFrame.m */,
 				4CEFB6491CF7FC4A006D84DF /* Assets.xcassets */,
@@ -168,10 +198,6 @@
 				4CEFB64E1CF7FC4A006D84DF /* Info.plist */,
 				4CEFB63E1CF7FC4A006D84DF /* main.m */,
 				4CEFB67A1CF80FCE006D84DF /* PrefixHeader.pch */,
-				4CE1752C1CFA7F6A0095349E /* SettingMain.plist */,
-				4CE1753A1CFAC6D50095349E /* Push.plist */,
-				4CE1753C1CFAE0F30095349E /* Push1.plist */,
-				4CE1753E1CFB01870095349E /* Push2.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -302,6 +328,10 @@
 		4CEFB6631CF80EA2006D84DF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4CF72CD41CFBD4510064BF07 /* CoverView.h */,
+				4CF72CD51CFBD4510064BF07 /* CoverView.m */,
+				4CF72D281CFBEBD80064BF07 /* CoverView.xib */,
+				4CF72D2A1CFBF2520064BF07 /* CoverViewCloseDelegate.h */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -311,6 +341,7 @@
 			children = (
 				4CEFB67B1CF8117C006D84DF /* Hall.storyboard */,
 				4CE769651CF936DD000E8271 /* HallViewController.h */,
+				4CF72D271CFBEB810064BF07 /* HallViewShowCoverDelegate.h */,
 				4CE769661CF936DD000E8271 /* HallViewController.m */,
 			);
 			name = Controllers;
@@ -421,6 +452,8 @@
 		4CEFB6721CF80F43006D84DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4CF72D3E1CFC29870064BF07 /* ProductModel.h */,
+				4CF72D3F1CFC29870064BF07 /* ProductModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -428,6 +461,10 @@
 		4CEFB6731CF80F50006D84DF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4CF72D2B1CFC0DE80064BF07 /* MySwitch.h */,
+				4CF72D2C1CFC0DE80064BF07 /* MySwitch.m */,
+				4CF72D2E1CFC11B90064BF07 /* MyTableViewCell.h */,
+				4CF72D2F1CFC11B90064BF07 /* MyTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -477,6 +514,29 @@
 			children = (
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		4CF72D311CFC1B410064BF07 /* SettingPlist */ = {
+			isa = PBXGroup;
+			children = (
+				4CE1752C1CFA7F6A0095349E /* SettingMain.plist */,
+				4CE1753A1CFAC6D50095349E /* Push.plist */,
+				4CE1753C1CFAE0F30095349E /* Push1.plist */,
+				4CE1753E1CFB01870095349E /* Push2.plist */,
+				4CF72D321CFC1B6A0064BF07 /* Push3.plist */,
+				4CF72D341CFC1B7E0064BF07 /* Push4.plist */,
+				4CF72D361CFC215E0064BF07 /* Share.plist */,
+			);
+			name = SettingPlist;
+			sourceTree = "<group>";
+		};
+		4CF72D381CFC23910064BF07 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CF72D391CFC24BE0064BF07 /* ProductController.h */,
+				4CF72D3A1CFC24BE0064BF07 /* ProductController.m */,
+			);
+			name = CollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,17 +598,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEFB6801CF811AB006D84DF /* Discovery.storyboard in Resources */,
+				4CF72D291CFBEBD80064BF07 /* CoverView.xib in Resources */,
 				4CE1753D1CFAE0F30095349E /* Push1.plist in Resources */,
 				4CEFB64D1CF7FC4A006D84DF /* LaunchScreen.storyboard in Resources */,
+				4CF72D331CFC1B6A0064BF07 /* Push3.plist in Resources */,
 				4CEFB64A1CF7FC4A006D84DF /* Assets.xcassets in Resources */,
+				4CF72D3D1CFC29000064BF07 /* more_project.json in Resources */,
 				4CE1752D1CFA7F6A0095349E /* SettingMain.plist in Resources */,
 				4CEFB67E1CF81196006D84DF /* Arena.storyboard in Resources */,
+				4CF72D371CFC215E0064BF07 /* Share.plist in Resources */,
 				4CEFB6841CF811D2006D84DF /* MyLottery.storyboard in Resources */,
 				4CE1753B1CFAC6D50095349E /* Push.plist in Resources */,
 				4CEFB6861CF811E2006D84DF /* Guide.storyboard in Resources */,
 				4CEFB67C1CF8117C006D84DF /* Hall.storyboard in Resources */,
 				4CEFB6821CF811BD006D84DF /* History.storyboard in Resources */,
 				4CE1753F1CFB01870095349E /* Push2.plist in Resources */,
+				4CF72D351CFC1B7E0064BF07 /* Push4.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,12 +631,17 @@
 				4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */,
 				4CE769671CF936DD000E8271 /* HallViewController.m in Sources */,
 				4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */,
+				4CF72D3B1CFC24BE0064BF07 /* ProductController.m in Sources */,
 				4CE769641CF93296000E8271 /* UIView+NewFrame.m in Sources */,
 				4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */,
+				4CF72D2D1CFC0DE80064BF07 /* MySwitch.m in Sources */,
 				4CE7696A1CF95DEE000E8271 /* TabBottomButton.m in Sources */,
 				4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */,
+				4CF72D401CFC29870064BF07 /* ProductModel.m in Sources */,
+				4CF72D301CFC11B90064BF07 /* MyTableViewCell.m in Sources */,
 				4CE175371CFA8E540095349E /* CodeViewController.m in Sources */,
 				4CE7696D1CF95EDB000E8271 /* MyNavigationController.m in Sources */,
+				4CF72CD61CFBD4510064BF07 /* CoverView.m in Sources */,
 				4CE769701CF9632D000E8271 /* ArenaController.m in Sources */,
 				4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */,
 				4CEFB6891CF82797006D84DF /* MyTabBarController.m in Sources */,

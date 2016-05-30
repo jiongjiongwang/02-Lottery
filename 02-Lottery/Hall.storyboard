@@ -8,7 +8,7 @@
         <!--购彩大厅-->
         <scene sceneID="chO-dO-0z2">
             <objects>
-                <tableViewController id="2MZ-OT-mt5" sceneMemberID="viewController">
+                <tableViewController id="2MZ-OT-mt5" customClass="HallViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="mgr-XW-1Ts">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,18 @@
                             <outlet property="delegate" destination="2MZ-OT-mt5" id="IqP-hj-OPG"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="购彩大厅" id="U8n-wn-evy"/>
+                    <navigationItem key="navigationItem" title="购彩大厅" id="U8n-wn-evy">
+                        <barButtonItem key="leftBarButtonItem" id="wmH-3A-yTu" customClass="Hall">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bzC-2S-YYI">
+                                <rect key="frame" x="20" y="4" width="63" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="CS50_activity_image"/>
+                                <connections>
+                                    <action selector="ActivityClick:" destination="2MZ-OT-mt5" eventType="touchUpInside" id="L6a-CQ-8gy"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1BZ-E2-cG6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,4 +62,7 @@
             <point key="canvasLocation" x="-390" y="371"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CS50_activity_image" width="63" height="36"/>
+    </resources>
 </document>

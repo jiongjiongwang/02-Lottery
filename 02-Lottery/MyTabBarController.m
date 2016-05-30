@@ -9,13 +9,22 @@
 #import "MyTabBarController.h"
 #import "TabBottomView.h"
 #import "TabBottomViewDelegate.h"
+#import "HallViewController.h"
+#import "HallViewShowCoverDelegate.h"
+#import "CoverView.h"
+#import "CoverViewCloseDelegate.h"
 
 
 
-@interface MyTabBarController ()<TabBottomViewDelegate>
+
+
+@interface MyTabBarController ()<TabBottomViewDelegate,HallViewShowCoverDelegate,CoverViewCloseDelegate>
 
 @property (nonatomic,weak)TabBottomView *bottomView;
 
+@property (nonatomic,weak)UIView *grayView;
+
+@property (nonatomic,weak)CoverView *coverView;
 
 @end
 
@@ -101,14 +110,80 @@
     
     UINavigationController *nav = [storyBoard instantiateInitialViewController];
     
+    
+    
 #warning 设置navigationController第一个viewController的背景色
     nav.topViewController.view.backgroundColor = MyRandomColor;
+    
+    if ([sbName isEqual: @"Hall"])
+    {
+        HallViewController *hallVC = (HallViewController *)nav.topViewController;
+        
+        hallVC.delegate = self;
+    }
+    
     
     return nav;
 }
 
 
+-(void)HallViewControllerShowCover:(HallViewController *)hallVC
+{
+    
+    //(1)创建一个灰色遮罩在上面
+    UIView *grayView = [[UIView alloc] initWithFrame:self.view.frame];
+    
+    self.grayView = grayView;
+    
+    grayView.backgroundColor = [UIColor grayColor];
+    
+    
+    grayView.alpha = 0.5;
+    
+    [self.view addSubview:grayView];
+    
+    
+    
+    
+    //(1)创建一个广告栏
+     CoverView *coverView = [CoverView coverView];
+    
+    self.coverView = coverView;
+    
+    coverView.delegate = self;
+    
+    
+     coverView.center = CGPointMake(self.view.wid/2, self.view.height/2);
+    
+     [self.view addSubview:coverView];
+}
 
+-(void)CoverViewClose:(CoverView *)coverView
+{
+    /*
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        
+        [coverView removeFromSuperview];
+        
+    } completion:^(BOOL finished) {
+        
+        
+        [UIView animateWithDuration:4 delay:1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            
+             [self.grayView removeFromSuperview];
+            
+        } completion:nil];
+        
+        
+        
+    }];
+    */
+    
+    [coverView removeFromSuperview];
+    
+    
+    [self.grayView removeFromSuperview];
+}
 
 
 

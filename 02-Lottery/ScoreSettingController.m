@@ -7,6 +7,8 @@
 //
 
 #import "ScoreSettingController.h"
+#import "MyTableViewCell.h"
+
 
 @interface ScoreSettingController ()
 
@@ -18,7 +20,7 @@
 @property (nonatomic,strong)UIToolbar *toolBar;
 
 
-@property (nonatomic,weak)UITableViewCell *cell;
+@property (nonatomic,weak)MyTableViewCell *cell;
 
 
 @end
@@ -113,7 +115,7 @@
     }
     
     //获取此时被点击的cell
-    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    MyTableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     
     self.cell = cell;
     
@@ -140,7 +142,21 @@
     
     NSString *getTime = [dateFormat stringFromDate:date];
     
-    self.cell.detailTextLabel.text = getTime;
+    
+    
+    //将时间赋值给cell的time属性
+    self.cell.time = getTime;
+    
+    
+    
+    //将时间存放到偏好中(_cell.textLabel.text做key）
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    
+    [userDefault setObject:getTime forKey:_cell.textLabel.text];
+    
+    [userDefault synchronize];
+    
+    
     
     
     //恢复

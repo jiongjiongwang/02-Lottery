@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>短信</string>
+				<key>icon</key>
+				<string>SmsShare</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>邮件</string>
+				<key>icon</key>
+				<string>MailShare</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>新浪微博</string>
+				<key>icon</key>
+				<string>WeiboSina</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+			</dict>
+		</array>
+		<key>Footer</key>
+		<string></string>
+		<key>Header</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

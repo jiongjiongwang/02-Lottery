@@ -8,11 +8,16 @@
 
 #import "MainSettingController.h"
 #import "CodeViewController.h"
+#import "MySwitch.h"
+#import "MyTableViewCell.h"
+
+
 
 
 @interface MainSettingController ()
 
 @property (nonatomic,strong)NSArray *dataArray;
+
 
 
 @end
@@ -77,7 +82,7 @@ static NSString *cellIdentify = @"MainSetting";
     return rowArray.count;
 }
 //(3)行数据
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (MyTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
     //根据plist的内容来设置cell的各项属性
@@ -98,18 +103,21 @@ static NSString *cellIdentify = @"MainSetting";
     }
     
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
+    MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentify];
     
 #warning 利用initWithStyle的形式来创建tabelView的cell
     if (cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:[self cellStyleWith:styleString] reuseIdentifier:cellIdentify];
+        cell = [[MyTableViewCell alloc] initWithStyle:[self cellStyleWith:styleString] reuseIdentifier:cellIdentify];
     }
     
     
     
     //(1)设置cell的textLabel和imageView
     cell.textLabel.text = rowItem[@"title"];
+    
+    
+    
     
     //判断有无照片
     if (rowItem[@"icon"])
@@ -149,8 +157,20 @@ static NSString *cellIdentify = @"MainSetting";
         else
         {
             //UISwitch的图标时
-            UISwitch *switchView = (UISwitch *)obj;
+            MySwitch *switchView = (MySwitch *)obj;
             cell.accessoryView = switchView;
+            
+            
+            switchView.indexPath = indexPath;
+            
+            //从偏好中获取switch的开关信息
+            NSUserDefaults *userdefalt = [NSUserDefaults standardUserDefaults];
+            
+            
+            switchView.on = [userdefalt boolForKey:rowItem[@"SwitchKey"]];
+            
+            //添加switch的监听方法
+            [switchView addTarget:self action:@selector(SwitchValue:) forControlEvents:UIControlEventValueChanged];
         }
     }
     
@@ -158,6 +178,7 @@ static NSString *cellIdentify = @"MainSetting";
     //(3)设置detail信息
     if ([styleString isEqualToString:@"UITableViewCellStyleSubtitle"]||[styleString isEqualToString:@"UITableViewCellStyleValue1"])
     {
+        
         cell.detailTextLabel.text = rowItem[@"SubTitle"];
         
         //设置字体红色
@@ -169,10 +190,49 @@ static NSString *cellIdentify = @"MainSetting";
                 cell.detailTextLabel.textColor = [UIColor redColor];
             }
         }
-        
     }
     
+    
+    
+    //(4)设置时间
+    //判断是否是时间相关的cell
+    if (([rowItem[@"title"] isEqualToString:@"起始时间"]) || ([rowItem[@"title"] isEqualToString:@"结束时间"]))
+    {
+        //从偏好中获取时间相关信息
+        NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+        
+        NSString *timeString = [userDefault objectForKey:rowItem[@"title"]];
+        
+        if (!(timeString == nil))
+        {
+             cell.time = timeString;
+        }
+    }
+    
+    
+    
     return cell;
+}
+
+//在switch的监听方法中条件switch的数据存储
+-(void)SwitchValue:(MySwitch *)sender
+{
+#warning 利用偏好设置来存储switch的开关信息
+    //(1)声明一个偏好实例
+    NSUserDefaults *userDefalut = [NSUserDefaults standardUserDefaults];
+    
+#warning 给每一个switch在plist文件中绑定一个SwitchKey
+    //根据plist的内容来设置cell的各项属性
+    NSDictionary *sectionItem = self.dataArray[sender.indexPath.section];
+    NSArray *rowArray = sectionItem[@"Items"];
+    NSDictionary *rowItem = rowArray[sender.indexPath.row];
+    
+    //存储
+    [userDefalut setBool:sender.isOn forKey:rowItem[@"SwitchKey"]];
+    
+    //同步
+    [userDefalut synchronize];
+    
 }
 
 
@@ -220,7 +280,7 @@ static NSString *cellIdentify = @"MainSetting";
         Class className = NSClassFromString(targetVC);
         
 #warning (2)利用类创建对象(使用id类型)
-        id obj = [[className alloc] init];
+        UIViewController *obj = [[className alloc] init];
         
 #warning (3)判断类的类型(子类也会返回YES）
         if ([obj isKindOfClass:[MainSettingController class]])
@@ -233,13 +293,29 @@ static NSString *cellIdentify = @"MainSetting";
             //设置plistName，加载数据
             pushSetting.plistName = rowItem[@"plistName"];
             
+            pushSetting.navigationItem.title = rowItem[@"title"];
+            
             [self.navigationController pushViewController:pushSetting animated:YES];
+        }
+        else if([obj isKindOfClass:[UIAlertController class]])
+        {
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:rowItem[@"AlertTitle"]  message:rowItem[@"AlertMessage"]
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+            
+            UIAlertAction *sureAction = [UIAlertAction actionWithTitle:rowItem[@"AlertAction"] style:UIAlertActionStyleDestructive handler:nil];
+            
+            [alert addAction:sureAction];
+            
+            
+            [self presentViewController:alert animated:YES completion:nil];
+            
+            
         }
         else
         {
-            CodeViewController *codeVC = (CodeViewController *)obj;
+            obj.navigationItem.title = rowItem[@"title"];
             
-            [self.navigationController pushViewController:codeVC animated:YES];
+            [self.navigationController pushViewController:obj animated:YES];
         }
     }
     

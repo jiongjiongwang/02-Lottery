@@ -7,6 +7,8 @@
 //
 
 #import "HallViewController.h"
+#import "CoverView.h"
+
 
 @interface HallViewController ()
 
@@ -46,5 +48,17 @@
     return cell;
 }
 */
+
+
+- (IBAction)ActivityClick:(UIButton *)sender
+{
+    
+    if ([self.delegate respondsToSelector:@selector(HallViewControllerShowCover:)])
+    {
+        [self.delegate HallViewControllerShowCover:self];
+    }
+}
+
+
 
 @end

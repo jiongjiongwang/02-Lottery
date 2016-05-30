@@ -11,13 +11,17 @@
 				<key>cellStyle</key>
 				<string>UITableViewCellStyleSubtitle</string>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>shuangseqiu</string>
 				<key>title</key>
 				<string>双色球</string>
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>daletou</string>
 				<key>SubTitle</key>
 				<string>每周二，四，日开奖</string>
 				<key>title</key>
@@ -27,7 +31,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>3D</string>
 				<key>SubTitle</key>
 				<string>每周二，四，日开奖</string>
 				<key>title</key>
@@ -37,7 +43,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>qilecai</string>
 				<key>SubTitle</key>
 				<string>每周二，四，日开奖</string>
 				<key>title</key>
@@ -47,7 +55,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>qixingcai</string>
 				<key>SubTitle</key>
 				<string>每周二，四，日开奖</string>
 				<key>title</key>
@@ -57,7 +67,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>pailie3</string>
 				<key>SubTitle</key>
 				<string>每周二，四，日开奖</string>
 				<key>title</key>
@@ -67,7 +79,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>pailie5</string>
 				<key>SubTitle</key>
 				<string>每周二，四，日开奖</string>
 				<key>title</key>

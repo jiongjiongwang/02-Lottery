@@ -42,7 +42,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>yaoyiyao</string>
 				<key>title</key>
 				<string>摇一摇机选</string>
 				<key>icon</key>
@@ -50,7 +52,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>shengyin</string>
 				<key>title</key>
 				<string>声音效果</string>
 				<key>icon</key>
@@ -58,7 +62,9 @@
 			</dict>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>goucai</string>
 				<key>title</key>
 				<string>购彩小助手</string>
 				<key>icon</key>
@@ -78,8 +84,16 @@
 		<key>Items</key>
 		<array>
 			<dict>
+				<key>AlertAction</key>
+				<string>确定</string>
+				<key>AlertTitle</key>
+				<string>提示</string>
+				<key>AlertMessage</key>
+				<string>已经是最新版本</string>
 				<key>accessoryName</key>
 				<string>CellArrow</string>
+				<key>targetVC</key>
+				<string>UIAlertController</string>
 				<key>accessoryType</key>
 				<string>UIImageView</string>
 				<key>icon</key>
@@ -90,6 +104,10 @@
 			<dict>
 				<key>accessoryName</key>
 				<string>CellArrow</string>
+				<key>targetVC</key>
+				<string>MainSettingController</string>
+				<key>plistName</key>
+				<string>Share.plist</string>
 				<key>accessoryType</key>
 				<string>UIImageView</string>
 				<key>icon</key>
@@ -100,6 +118,8 @@
 			<dict>
 				<key>accessoryName</key>
 				<string>CellArrow</string>
+				<key>targetVC</key>
+				<string>ProductController</string>
 				<key>accessoryType</key>
 				<string>UIImageView</string>
 				<key>icon</key>

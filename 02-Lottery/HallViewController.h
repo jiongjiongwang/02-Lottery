@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HallViewShowCoverDelegate.h"
+
 
 @interface HallViewController : UITableViewController
+
+
+@property (nonatomic,weak)id<HallViewShowCoverDelegate> delegate;
+
 
 @end

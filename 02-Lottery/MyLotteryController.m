@@ -35,6 +35,9 @@
     //设置plistName，加载数据
     mainSetting.plistName = @"SettingMain.plist";
     
+    mainSetting.navigationItem.title = @"设置";
+    
+    
     [self.navigationController pushViewController:mainSetting animated:YES];
 }
 

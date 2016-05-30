@@ -11,7 +11,9 @@
 		<array>
 			<dict>
 				<key>accessoryType</key>
-				<string>UISwitch</string>
+				<string>MySwitch</string>
+				<key>SwitchKey</key>
+				<string>tswgzdebisai</string>
 				<key>title</key>
 				<string>推送我关注的比赛</string>
 			</dict>
