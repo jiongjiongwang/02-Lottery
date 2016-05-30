@@ -24,7 +24,7 @@
         <!--我的彩票-->
         <scene sceneID="iAV-LV-apV">
             <objects>
-                <viewController id="DEz-n0-XtM" sceneMemberID="viewController">
+                <viewController id="DEz-n0-XtM" customClass="MyLotteryController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sh4-6r-JPb"/>
                         <viewControllerLayoutGuide type="bottom" id="dTT-Cm-N8x"/>
@@ -77,7 +77,11 @@
                                 <state key="normal" title="客服" image="FBMM_Barbutton"/>
                             </button>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="Mylottery_config" id="SnE-J5-3YA"/>
+                        <barButtonItem key="rightBarButtonItem" image="Mylottery_config" id="SnE-J5-3YA">
+                            <connections>
+                                <action selector="ClickToSetting:" destination="DEz-n0-XtM" id="riq-tl-DDn"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lKn-nx-GgL" userLabel="First Responder" sceneMemberID="firstResponder"/>

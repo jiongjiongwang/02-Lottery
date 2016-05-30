@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CE1752D1CFA7F6A0095349E /* SettingMain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1752C1CFA7F6A0095349E /* SettingMain.plist */; };
+		4CE175301CFA85A40095349E /* MyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE1752F1CFA85A40095349E /* MyLotteryController.m */; };
+		4CE175331CFA86CA0095349E /* MainSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE175321CFA86CA0095349E /* MainSettingController.m */; };
+		4CE175371CFA8E540095349E /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE175361CFA8E540095349E /* CodeViewController.m */; };
+		4CE1753B1CFAC6D50095349E /* Push.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1753A1CFAC6D50095349E /* Push.plist */; };
+		4CE1753D1CFAE0F30095349E /* Push1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1753C1CFAE0F30095349E /* Push1.plist */; };
+		4CE1753F1CFB01870095349E /* Push2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1753E1CFB01870095349E /* Push2.plist */; };
+		4CE175421CFB05410095349E /* ScoreSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE175411CFB05410095349E /* ScoreSettingController.m */; };
 		4CE769641CF93296000E8271 /* UIView+NewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE769631CF93296000E8271 /* UIView+NewFrame.m */; };
 		4CE769671CF936DD000E8271 /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE769661CF936DD000E8271 /* HallViewController.m */; };
 		4CE7696A1CF95DEE000E8271 /* TabBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE769691CF95DEE000E8271 /* TabBottomButton.m */; };
@@ -30,6 +38,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CE1752C1CFA7F6A0095349E /* SettingMain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingMain.plist; sourceTree = "<group>"; };
+		4CE1752E1CFA85A40095349E /* MyLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLotteryController.h; sourceTree = "<group>"; };
+		4CE1752F1CFA85A40095349E /* MyLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLotteryController.m; sourceTree = "<group>"; };
+		4CE175311CFA86CA0095349E /* MainSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSettingController.h; sourceTree = "<group>"; };
+		4CE175321CFA86CA0095349E /* MainSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSettingController.m; sourceTree = "<group>"; };
+		4CE175351CFA8E540095349E /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		4CE175361CFA8E540095349E /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		4CE1753A1CFAC6D50095349E /* Push.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Push.plist; sourceTree = "<group>"; };
+		4CE1753C1CFAE0F30095349E /* Push1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Push1.plist; sourceTree = "<group>"; };
+		4CE1753E1CFB01870095349E /* Push2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Push2.plist; sourceTree = "<group>"; };
+		4CE175401CFB05410095349E /* ScoreSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreSettingController.h; sourceTree = "<group>"; };
+		4CE175411CFB05410095349E /* ScoreSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreSettingController.m; sourceTree = "<group>"; };
 		4CE769621CF93296000E8271 /* UIView+NewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NewFrame.h"; sourceTree = "<group>"; };
 		4CE769631CF93296000E8271 /* UIView+NewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NewFrame.m"; sourceTree = "<group>"; };
 		4CE769651CF936DD000E8271 /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
@@ -78,6 +98,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE175341CFA8E190095349E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4CE175391CFAB1150095349E /* TableViewController */,
+				4CE175381CFAB0FF0095349E /* ViewController */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4CE175381CFAB0FF0095349E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CE175351CFA8E540095349E /* CodeViewController.h */,
+				4CE175361CFA8E540095349E /* CodeViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4CE175391CFAB1150095349E /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CE175311CFA86CA0095349E /* MainSettingController.h */,
+				4CE175321CFA86CA0095349E /* MainSettingController.m */,
+				4CE175401CFB05410095349E /* ScoreSettingController.h */,
+				4CE175411CFB05410095349E /* ScoreSettingController.m */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
 		4CEFB6311CF7FC4A006D84DF = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +168,10 @@
 				4CEFB64E1CF7FC4A006D84DF /* Info.plist */,
 				4CEFB63E1CF7FC4A006D84DF /* main.m */,
 				4CEFB67A1CF80FCE006D84DF /* PrefixHeader.pch */,
+				4CE1752C1CFA7F6A0095349E /* SettingMain.plist */,
+				4CE1753A1CFAC6D50095349E /* Push.plist */,
+				4CE1753C1CFAE0F30095349E /* Push1.plist */,
+				4CE1753E1CFB01870095349E /* Push2.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -382,7 +435,10 @@
 		4CEFB6741CF80F58006D84DF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4CE175341CFA8E190095349E /* Settings */,
 				4CEFB6831CF811D2006D84DF /* MyLottery.storyboard */,
+				4CE1752E1CFA85A40095349E /* MyLotteryController.h */,
+				4CE1752F1CFA85A40095349E /* MyLotteryController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -482,13 +538,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEFB6801CF811AB006D84DF /* Discovery.storyboard in Resources */,
+				4CE1753D1CFAE0F30095349E /* Push1.plist in Resources */,
 				4CEFB64D1CF7FC4A006D84DF /* LaunchScreen.storyboard in Resources */,
 				4CEFB64A1CF7FC4A006D84DF /* Assets.xcassets in Resources */,
+				4CE1752D1CFA7F6A0095349E /* SettingMain.plist in Resources */,
 				4CEFB67E1CF81196006D84DF /* Arena.storyboard in Resources */,
 				4CEFB6841CF811D2006D84DF /* MyLottery.storyboard in Resources */,
+				4CE1753B1CFAC6D50095349E /* Push.plist in Resources */,
 				4CEFB6861CF811E2006D84DF /* Guide.storyboard in Resources */,
 				4CEFB67C1CF8117C006D84DF /* Hall.storyboard in Resources */,
 				4CEFB6821CF811BD006D84DF /* History.storyboard in Resources */,
+				4CE1753F1CFB01870095349E /* Push2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +559,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE175301CFA85A40095349E /* MyLotteryController.m in Sources */,
+				4CE175421CFB05410095349E /* ScoreSettingController.m in Sources */,
+				4CE175331CFA86CA0095349E /* MainSettingController.m in Sources */,
 				4CEFB6421CF7FC4A006D84DF /* AppDelegate.m in Sources */,
 				4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */,
 				4CE769671CF936DD000E8271 /* HallViewController.m in Sources */,
@@ -507,6 +570,7 @@
 				4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */,
 				4CE7696A1CF95DEE000E8271 /* TabBottomButton.m in Sources */,
 				4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */,
+				4CE175371CFA8E540095349E /* CodeViewController.m in Sources */,
 				4CE7696D1CF95EDB000E8271 /* MyNavigationController.m in Sources */,
 				4CE769701CF9632D000E8271 /* ArenaController.m in Sources */,
 				4CEFB63F1CF7FC4A006D84DF /* main.m in Sources */,

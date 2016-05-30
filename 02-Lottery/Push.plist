@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>plistName</key>
+				<string>Push1.plist</string>
+				<key>targetVC</key>
+				<string>MainSettingController</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>title</key>
+				<string>开奖推送</string>
+			</dict>
+			<dict>
+				<key>plistName</key>
+				<string>Push2.plist</string>
+				<key>targetVC</key>
+				<string>ScoreSettingController</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>title</key>
+				<string>比分直播推送</string>
+			</dict>
+			<dict>
+				<key>plistName</key>
+				<string>Push3.plist</string>
+				<key>targetVC</key>
+				<string>MainSettingController</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>title</key>
+				<string>中奖动画</string>
+			</dict>
+			<dict>
+				<key>plistName</key>
+				<string>Push4.plist</string>
+				<key>targetVC</key>
+				<string>MainSettingController</string>
+				<key>accessoryName</key>
+				<string>CellArrow</string>
+				<key>accessoryType</key>
+				<string>UIImageView</string>
+				<key>title</key>
+				<string>购彩提醒</string>
+			</dict>
+		</array>
+		<key>Footer</key>
+		<string></string>
+		<key>Header</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
