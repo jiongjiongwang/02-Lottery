@@ -42,6 +42,8 @@
 		4CF72D3B1CFC24BE0064BF07 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D3A1CFC24BE0064BF07 /* ProductController.m */; };
 		4CF72D3D1CFC29000064BF07 /* more_project.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D3C1CFC29000064BF07 /* more_project.json */; };
 		4CF72D401CFC29870064BF07 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D3F1CFC29870064BF07 /* ProductModel.m */; };
+		4CF72D441CFC2F7F0064BF07 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72D421CFC2F7F0064BF07 /* ProductCell.m */; };
+		4CF72D451CFC2F7F0064BF07 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF72D431CFC2F7F0064BF07 /* ProductCell.xib */; };
 		4CFCE1A01CF9913A00991B4C /* AllLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */; };
 		4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A21CF998C300991B4C /* AllLotteryButton.m */; };
 		4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFCE1A51CF9AFF600991B4C /* LuckNumController.m */; };
@@ -106,6 +108,9 @@
 		4CF72D3C1CFC29000064BF07 /* more_project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = more_project.json; sourceTree = "<group>"; };
 		4CF72D3E1CFC29870064BF07 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
 		4CF72D3F1CFC29870064BF07 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		4CF72D411CFC2F7F0064BF07 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		4CF72D421CFC2F7F0064BF07 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		4CF72D431CFC2F7F0064BF07 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		4CFCE19E1CF9913A00991B4C /* AllLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryController.h; sourceTree = "<group>"; };
 		4CFCE19F1CF9913A00991B4C /* AllLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLotteryController.m; sourceTree = "<group>"; };
 		4CFCE1A11CF998C300991B4C /* AllLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLotteryButton.h; sourceTree = "<group>"; };
@@ -465,6 +470,9 @@
 				4CF72D2C1CFC0DE80064BF07 /* MySwitch.m */,
 				4CF72D2E1CFC11B90064BF07 /* MyTableViewCell.h */,
 				4CF72D2F1CFC11B90064BF07 /* MyTableViewCell.m */,
+				4CF72D411CFC2F7F0064BF07 /* ProductCell.h */,
+				4CF72D421CFC2F7F0064BF07 /* ProductCell.m */,
+				4CF72D431CFC2F7F0064BF07 /* ProductCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -606,6 +614,7 @@
 				4CF72D3D1CFC29000064BF07 /* more_project.json in Resources */,
 				4CE1752D1CFA7F6A0095349E /* SettingMain.plist in Resources */,
 				4CEFB67E1CF81196006D84DF /* Arena.storyboard in Resources */,
+				4CF72D451CFC2F7F0064BF07 /* ProductCell.xib in Resources */,
 				4CF72D371CFC215E0064BF07 /* Share.plist in Resources */,
 				4CEFB6841CF811D2006D84DF /* MyLottery.storyboard in Resources */,
 				4CE1753B1CFAC6D50095349E /* Push.plist in Resources */,
@@ -631,6 +640,7 @@
 				4CFCE1A31CF998C300991B4C /* AllLotteryButton.m in Sources */,
 				4CE769671CF936DD000E8271 /* HallViewController.m in Sources */,
 				4CEFB68C1CF82EEE006D84DF /* TabBottomView.m in Sources */,
+				4CF72D441CFC2F7F0064BF07 /* ProductCell.m in Sources */,
 				4CF72D3B1CFC24BE0064BF07 /* ProductController.m in Sources */,
 				4CE769641CF93296000E8271 /* UIView+NewFrame.m in Sources */,
 				4CFCE1A61CF9AFF600991B4C /* LuckNumController.m in Sources */,
