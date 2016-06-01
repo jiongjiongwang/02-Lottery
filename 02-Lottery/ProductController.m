@@ -119,6 +119,21 @@ static NSString * const reuseIdentifier = @"ProductCell";
 
 }
 
+//(4)点击item之后的触发事件
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    /*
+    //1.获取选中的数据(直接取数据)
+    ProductModel *cellModel = self.dataArray[indexPath.item];
+    
+    
+    //2.打印信息
+    NSLog(@"%@",cellModel.ID);
+    */
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {

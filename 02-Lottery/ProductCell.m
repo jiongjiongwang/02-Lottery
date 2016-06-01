@@ -25,6 +25,13 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
+    
+#warning 利用Layer图层的方式来裁剪图片圆角
+    self.productImage.layer.cornerRadius = 10;
+    
+    self.productImage.layer.masksToBounds = YES;
+    
+    
 }
 
 //重写model的set方法，获取数据

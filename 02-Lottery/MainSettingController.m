@@ -269,6 +269,11 @@ static NSString *cellIdentify = @"MainSetting";
 //(4)代理方法，实现点击跳转
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //取消选中之后的灰色点击效果
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+    
     //从plist文件中获取targetVC信息
     NSDictionary *sectionItem = self.dataArray[indexPath.section];
     NSArray *rowArray = sectionItem[@"Items"];
@@ -306,7 +311,7 @@ static NSString *cellIdentify = @"MainSetting";
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:rowItem[@"AlertTitle"]  message:rowItem[@"AlertMessage"]
                                                                     preferredStyle:UIAlertControllerStyleAlert];
             
-            UIAlertAction *sureAction = [UIAlertAction actionWithTitle:rowItem[@"AlertAction"] style:UIAlertActionStyleDestructive handler:nil];
+            UIAlertAction *sureAction = [UIAlertAction actionWithTitle:rowItem[@"AlertAction"] style:UIAlertActionStyleDefault handler:nil];
             
             [alert addAction:sureAction];
             

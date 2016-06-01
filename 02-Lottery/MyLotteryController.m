@@ -8,6 +8,8 @@
 
 #import "MyLotteryController.h"
 #import "MainSettingController.h"
+#import "HelpViewController.h"
+
 
 
 @interface MyLotteryController ()
@@ -46,16 +48,14 @@
 
 -(void)ClickToQuesition
 {
-    /*
-    MainSettingController *mainSetting = [[MainSettingController alloc] init];
+    
+    HelpViewController *helpSetting = [[HelpViewController alloc] init];
     
     //设置plistName，加载数据
-    mainSetting.plistName = @"Question.plist";
     
-    mainSetting.navigationItem.title = @"常见问题";
+    helpSetting.navigationItem.title = @"常见问题";
     
-    [self.navigationController pushViewController:mainSetting animated:YES];
-     */
+    [self.navigationController pushViewController:helpSetting animated:YES];
     
 }
 
