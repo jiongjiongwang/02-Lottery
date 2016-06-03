@@ -327,8 +327,28 @@ static NSString *cellIdentify = @"MainSetting";
             [self.navigationController pushViewController:obj animated:YES];
         }
     }
+    else if(rowItem[@"TargetFunction"])
+    {
+        //当点击时可以调用方法时
+        NSString *runFunction = rowItem[@"TargetFunction"];
+        
+#warning (1)利用运行时系统将字符串转换成方法
+        SEL selector = NSSelectorFromString(runFunction);
+        
+#warning (2)判断方法是否能执行
+        if ([self respondsToSelector:selector])
+        {
+#warning  方法可以执行，就执行方法
+          [self performSelector:selector];
+        }
+        else
+        {
+            NSLog(@"方法不能执行");
+        }
     
+    }
 }
+
 
 //(5)返回组头信息
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -346,5 +366,31 @@ static NSString *cellIdentify = @"MainSetting";
     return sectionItem[@"Footer"];
 }
 
+//点击关于的执行方法
+-(void)GoWebsite
+{
+    //(1)取出Application
+    UIApplication *application = [UIApplication sharedApplication];
+    
+    
+    //(2)创建url
+    NSURL *url = [NSURL URLWithString:@"http://www.163.com/"];
+    
+    //(3)进入某个网站
+    [application openURL:url];
+}
+
+-(void)GoTel
+{
+    //(1)取出Application
+    UIApplication *application = [UIApplication sharedApplication];
+    
+    
+    //(2)创建url
+    NSURL *url = [NSURL URLWithString:@"tel://10086"];
+    
+    //(3)打个电话
+    [application openURL:url];
+}
 
 @end

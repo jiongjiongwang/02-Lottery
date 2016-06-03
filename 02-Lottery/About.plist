@@ -6,6 +6,8 @@
 		<key>Items</key>
 		<array>
 			<dict>
+				<key>TargetFunction</key>
+				<string>GoWebsite</string>
 				<key>title</key>
 				<string>评分支持</string>
 				<key>accessoryName</key>
@@ -14,6 +16,8 @@
 				<string>UIImageView</string>
 			</dict>
 			<dict>
+				<key>TargetFunction</key>
+				<string>GoTel</string>
 				<key>title</key>
 				<string>客服电话</string>
 				<key>cellStyle</key>
