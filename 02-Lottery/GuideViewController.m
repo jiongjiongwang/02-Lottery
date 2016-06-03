@@ -172,6 +172,21 @@ static NSString * const reuseIdentifier = @"Cell";
     //(1)获取collectionView的x轴偏移量
     CGFloat moveX = scrollView.contentOffset.x;
     
+    
+    
+    //1.1判断扫动的方向
+#warning 向右扫动的时候，moveX一直在减少，此时_ballImage.x>moveX
+    if (_ballImage.xLocation > moveX)
+    {
+        //将_ballImage.x先减少一个scrollView的宽度
+        _ballImage.xLocation = moveX - scrollView.wid;
+    }
+#warning 向左扫动时，moveX在增加，此时_ballImage.xLocation < moveX
+    else if (_ballImage.xLocation < moveX)
+    {
+        _ballImage.xLocation = moveX + scrollView.wid;
+    }
+    
     //(2)修改3张图片显示
     
     //2.1 根据x偏移量来求出索引

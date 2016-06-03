@@ -36,7 +36,7 @@
     //(3)判断
     if ([currentVersion isEqualToString:oldVersion])
     {
-        return NO;
+        return YES;
     }
     else
     {
